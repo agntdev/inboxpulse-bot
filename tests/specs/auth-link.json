@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Link Account",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate Microsoft Graph OAuth flow for Hotmail/Outlook"
+            }
+          }
+        ],
+        "send": {
+          "callback": "auth:link"
+        }
+      }
+    ]
+  }
+]
