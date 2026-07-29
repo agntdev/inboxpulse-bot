@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Execute immediate inbox check for selected account"
+              "text": "No Outlook account is linked yet. Link one before running a check."
             }
           }
         ],

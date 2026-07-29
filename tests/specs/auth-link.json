@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Initiate Microsoft Graph OAuth flow for Hotmail/Outlook"
+              "text": "Microsoft connection isn’t set up yet. Ask the owner to configure the Microsoft OAuth application, then try again."
             }
           }
         ],
