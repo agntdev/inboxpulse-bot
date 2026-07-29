@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Support bulk checks require the support role",
+    "steps": [
+      {
+        "send": { "callback": "support:bulk" },
+        "expect": [{ "method": "editMessageText", "payload": { "text": "Support access is required for bulk checks." } }]
+      }
+    ]
+  }
+]

@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Display tier options and initiate payment flow"
+              "text": "You’re on the trial plan with 3 checks remaining. Choose a plan to request an upgrade."
             }
           }
         ],

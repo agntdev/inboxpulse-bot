@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Create recurring check job (default 1/hour if no interval specified)"
+              "text": "No Outlook account is linked yet. Link one before scheduling checks."
             }
           }
         ],

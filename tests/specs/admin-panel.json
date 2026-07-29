@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Open admin controls for user/proxy/log management"
+              "text": "Admin access is required for this area."
             }
           }
         ],

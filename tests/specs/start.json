@@ -7,7 +7,7 @@
         "expect": [
           {
             "method": "sendMessage",
-            "payload": { "text": "👋 Welcome! Tap a button below to get started." }
+            "payload": { "text": "Your trial plan has 3 inbox checks remaining. Link Outlook to get started." }
           }
         ]
       }
